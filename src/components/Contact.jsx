@@ -44,24 +44,34 @@ function Contact() {
           useful? I would love to hear from you.
         </h2>
         <div className="columns is-centered contact-methods">
-          {contactMethods.map((method) => (
-            <div className="column is-one-third" key={method.label}>
-              <a
-                className="contact-button"
-                href={method.href}
-                aria-label={method.ariaLabel}
-                target={method.href.startsWith("http") ? "_blank" : undefined}
-                rel={
-                  method.href.startsWith("http")
-                    ? "noreferrer"
-                    : undefined
-                }
-              >
-                {method.icon}
-              </a>
-              <p className="contact-label">{method.label}</p>
-            </div>
-          ))}
+          {contactMethods.map((method) => {
+            const isExternal = method.href.startsWith("http");
+
+            return (
+              <div className="column is-one-third" key={method.label}>
+                {isExternal ? (
+                  <a
+                    className="contact-button"
+                    href={method.href}
+                    aria-label={method.ariaLabel}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {method.icon}
+                  </a>
+                ) : (
+                  <a
+                    className="contact-button"
+                    href={method.href}
+                    aria-label={method.ariaLabel}
+                  >
+                    {method.icon}
+                  </a>
+                )}
+                <p className="contact-label">{method.label}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
