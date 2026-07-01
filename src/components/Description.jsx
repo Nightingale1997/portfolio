@@ -5,7 +5,7 @@ function Description() {
         <div className="columns is-vcentered mx-6">
           <div className="column" data-aos-delay="200">
             <figure className="image is-square">
-              <img className="" src="about_square.png" />
+              <img className="" src="about_square.png" alt="Kevin Solovjov" />
             </figure>
           </div>
           <div className="column ml-4">

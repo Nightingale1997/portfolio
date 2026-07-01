@@ -7,7 +7,7 @@ function Skills() {
             <div className="columns is-centered has-text-centered">
               <div className="column has-right-border">
                 <figure className="image is-48x48">
-                  <img className="purple-filter" src="pen.svg" />
+                  <img className="purple-filter" src="pen.svg" alt="Design" />
                 </figure>
                 <h1 className="title is-size-4 is-spaced">Designer</h1>
                 <p>
@@ -31,7 +31,7 @@ function Skills() {
               </div>
               <div className="column has-right-border">
                 <figure className="image is-48x48">
-                  <img className="purple-filter" src="code.svg" />
+                  <img className="purple-filter" src="code.svg" alt="Front-end development" />
                 </figure>
                 <h1 className="title is-size-4 is-spaced">Front-end Developer</h1>
                 <p>
@@ -56,7 +56,7 @@ function Skills() {
               </div>
               <div className="column">
                 <figure className="image is-48x48">
-                  <img className="purple-filter" src="database.svg" />
+                  <img className="purple-filter" src="database.svg" alt="Back-end development" />
                 </figure>
                 <h1 className="title is-size-4 is-spaced">Back-end Developer</h1>
                 <p>

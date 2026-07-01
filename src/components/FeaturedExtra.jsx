@@ -18,7 +18,7 @@ function FeaturedExtra({ name, image, type, link, modal, modalImage }) {
       <a href={link} onClick={showModal}>
         <div className="image-scroll-container has-border-purple">
           <figure className="image image-scroll is-3by2">
-            <img src={image} />
+            <img src={image} alt={name} />
           </figure>
         </div>
       </a>

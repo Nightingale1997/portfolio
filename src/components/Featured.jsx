@@ -24,7 +24,7 @@ function Featured({ name, image, type, link, scroll }) {
             onMouseLeave={() => setIsHovered(false)}
           >
             <figure className={`image is-3by2 ${scroll ? "image-scroll" : ""}`}>
-              <img src={image} />
+              <img src={image} alt={name} />
             </figure>
           </div>
         </a>

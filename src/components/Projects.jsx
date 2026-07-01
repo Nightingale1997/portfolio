@@ -8,7 +8,7 @@ function Projects() {
         <h1 className="title is-4">Featured Projects</h1>
         <h2 className="subtitle is-6">
           Want to see more?{" "}
-          <a href="#">
+          <a href="https://github.com/Nightingale1997">
             <strong className="has-text-purple">Contact me</strong>
           </a>
         </h2>

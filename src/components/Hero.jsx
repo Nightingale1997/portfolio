@@ -1,4 +1,3 @@
-import { Parallax } from "react-parallax";
 import Navigation from "./Navigation";
 
 function Hero() {
@@ -23,8 +22,8 @@ function Hero() {
             </div>
             <div className="column" data-aos="fade-left">
               <figure className="image is-square">
-                <img className="hero-img normal-only" src="me_round.png" />
-                <img className="hero-img hd-only" src="me_round_hd.png" />
+                <img className="hero-img normal-only" src="me_round.png" alt="Kevin Solovjov" />
+                <img className="hero-img hd-only" src="me_round_hd.png" alt="Kevin Solovjov" />
               </figure>
             </div>
           </div>

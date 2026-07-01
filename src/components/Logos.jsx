@@ -8,7 +8,7 @@ function Logos() {
         <div className="column"></div>
         <div className="column mx-5">
           <figure className="image is-5by4 grayscale" data-aos="zoom-in-up">
-            <img src="logos/i3tex.png" />
+            <img src="logos/i3tex.png" alt="i3tex" />
           </figure>
         </div>
         <div className="column mx-5">
@@ -17,7 +17,7 @@ function Logos() {
             data-aos="zoom-in-up"
             data-aos-delay="100"
           >
-            <img src="logos/hello.png" />
+            <img src="logos/hello.png" alt="Hello" />
           </figure>
         </div>
         <div className="column mx-5">
@@ -26,7 +26,7 @@ function Logos() {
             data-aos="zoom-in-up"
             data-aos-delay="200"
           >
-            <img src="logos/hbs.png" />
+            <img src="logos/hbs.png" alt="HBS" />
           </figure>
         </div>
         <div className="column mx-5">
@@ -35,7 +35,7 @@ function Logos() {
             data-aos="zoom-in-up"
             data-aos-delay="300"
           >
-            <img src="logos/csr.png" />
+            <img src="logos/csr.png" alt="CSR" />
           </figure>
         </div>
         <div className="column mx-5">
@@ -44,7 +44,7 @@ function Logos() {
             data-aos="zoom-in-up"
             data-aos-delay="400"
           >
-            <img src="logos/chs.png" />
+            <img src="logos/chs.png" alt="Chimp Solutions" />
           </figure>
         </div>
         <div className="column"></div>

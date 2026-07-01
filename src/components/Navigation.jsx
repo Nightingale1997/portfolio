@@ -15,9 +15,10 @@ function Navigation() {
 
         <a
           role="button"
+          href="#navbarBasicExample"
           className={`navbar-burger ${burger ? "" : "is-active"}`}
           aria-label="menu"
-          aria-expanded="false"
+          aria-expanded={burger}
           data-target="navbarBasicExample"
           onClick={() => setburger(!burger)}
         >
@@ -34,10 +35,10 @@ function Navigation() {
         <div className="navbar-start"></div>
 
         <div className="navbar-end">
-          <a className="navbar-item">Home</a>
+          <a className="navbar-item" href="#hero">Home</a>
           <div className="navbar-item">
             <div className="buttons is-centered">
-              <a className="button is-purple">
+              <a className="button is-purple" href="https://github.com/Nightingale1997">
                 <strong>Lets talk</strong>
               </a>
             </div>
