@@ -31,9 +31,15 @@ function Skills() {
               </div>
               <div className="column has-right-border">
                 <figure className="image is-48x48">
-                  <img className="purple-filter" src="code.svg" alt="Front-end development" />
+                  <img
+                    className="purple-filter"
+                    src="code.svg"
+                    alt="Front-end development"
+                  />
                 </figure>
-                <h1 className="title is-size-4 is-spaced">Front-end Developer</h1>
+                <h1 className="title is-size-4 is-spaced">
+                  Front-end Developer
+                </h1>
                 <p>
                   I enjoy bringing ideas to life in the browser through
                   interactivity and animations.
@@ -46,33 +52,39 @@ function Skills() {
                   Tools & Frameworks:
                 </p>
                 <ul>
-                  <li>Sass</li>
-                  <li>Atom</li>
                   <li>React</li>
-                  <li>Redux</li>
-                  <li>Bulma</li>
+                  <li>Vue</li>
+                  <li>Electron.js</li>
+                  <li>React-Native</li>
+                  <li>Sass</li>
                   <li>Android Studio</li>
                 </ul>
               </div>
               <div className="column">
                 <figure className="image is-48x48">
-                  <img className="purple-filter" src="database.svg" alt="Back-end development" />
+                  <img
+                    className="purple-filter"
+                    src="database.svg"
+                    alt="Back-end development"
+                  />
                 </figure>
-                <h1 className="title is-size-4 is-spaced">Back-end Developer</h1>
+                <h1 className="title is-size-4 is-spaced">
+                  Back-end Developer
+                </h1>
                 <p>
                   I believe in interconnected experiences where servers become a
                   natural component.
                 </p>
                 <p className="list-title has-text-purple has-text-weight-semibold">
-                  Languages I speak:
+                  Frameworks I work with:
                 </p>
                 <p>Node.js, PHP, Java, SQL, MongoDB</p>
                 <p className="list-title has-text-purple has-text-weight-semibold">
-                  Tools & Frameworks:
+                  Technologies:
                 </p>
                 <ul>
                   <li>Git</li>
-                  <li>Unity</li>
+                  <li>Next.js</li>
                   <li>Express</li>
                   <li>Firebase</li>
                   <li>Meteor.js</li>

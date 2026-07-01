@@ -70,7 +70,7 @@ function Projects() {
             modalImage="notsoordinary.jpg"
           />
           <FeaturedExtra
-            name={"HBS Städ"}
+            name={"Backa Redovisningbyrå"}
             type="Website"
             image="hbs.jpg"
             link="#"
