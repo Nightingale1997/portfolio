@@ -53,7 +53,7 @@ function Contact() {
                 target={method.href.startsWith("http") ? "_blank" : undefined}
                 rel={
                   method.href.startsWith("http")
-                    ? "noopener noreferrer"
+                    ? "noreferrer"
                     : undefined
                 }
               >
