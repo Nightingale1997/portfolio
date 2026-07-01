@@ -3,12 +3,12 @@ import FeaturedExtra from "./FeaturedExtra";
 
 function Projects() {
   return (
-    <section className="projects has-text-centered">
+    <section id="examples" className="projects has-text-centered">
       <header className="is-purple">
         <h1 className="title is-4">Featured Projects</h1>
         <h2 className="subtitle is-6">
           Want to see more?{" "}
-          <a href="https://github.com/Nightingale1997">
+          <a href="#contact">
             <strong className="has-text-purple">Contact me</strong>
           </a>
         </h2>

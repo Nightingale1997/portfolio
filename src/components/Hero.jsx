@@ -18,7 +18,9 @@ function Hero() {
                 Kevin <span className="has-text-purple">Solovjov</span>
               </p>
               <p className="subtitle is-4">UI/UX Designer and Web Developer</p>
-              <button className="button is-purple is-medium">Explore</button>
+              <a className="button is-purple is-medium" href="#introduction">
+                Explore
+              </a>
             </div>
             <div className="column" data-aos="fade-left">
               <figure className="image is-square">

@@ -15,14 +15,33 @@ function Description() {
             </h1>
             <div className="content pr-4 has-text-justified-mobile">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-                <strong>sections</strong>, like the one you're currently
-                reading.
+                I&apos;m a front-end developer and UX designer with 5 years of
+                experience creating intuitive, responsive, and user-centered
+                digital products. My background in software engineering and UX
+                design allows me to bridge the gap between technical
+                implementation, design thinking, and real user needs.
               </p>
-              <button className="button is-dark mt-5">Do stuff pls</button>
+              <p>
+                I enjoy connecting ideas across disciplines, teams, and
+                industries, turning complex requirements into clear interfaces
+                and practical solutions. Whether working from an early concept,
+                improving an existing product, or communicating technical ideas
+                to non-technical stakeholders, I aim to create experiences that
+                feel simple, useful, and well-crafted.
+              </p>
+              <p>
+                Alongside my development work, I have a strong interest in
+                teaching, mentoring, and making technology more accessible. I
+                have organized and led programming classes for children, acted
+                as project lead in academic settings, and later planned and
+                taught programming courses at university level. These
+                experiences have strengthened my ability to explain complex
+                topics clearly, guide others, and build products with both
+                people and technology in mind.
+              </p>
+              <a className="button is-dark mt-5" href="#examples">
+                View my work
+              </a>
             </div>
           </div>
         </div>

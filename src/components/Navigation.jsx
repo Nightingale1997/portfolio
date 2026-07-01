@@ -38,7 +38,7 @@ function Navigation() {
           <a className="navbar-item" href="#hero">Home</a>
           <div className="navbar-item">
             <div className="buttons is-centered">
-              <a className="button is-purple" href="https://github.com/Nightingale1997">
+              <a className="button is-purple" href="#contact">
                 <strong>Lets talk</strong>
               </a>
             </div>

@@ -5,6 +5,7 @@ import Introduction from "./components/Introduction";
 import Skills from "./components/Skills";
 import Logos from "./components/Logos";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Skills />
       <Logos />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
